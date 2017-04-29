@@ -12,7 +12,7 @@ This is what I am supposedly working on now. Last updated in April, 2017.
 * Creating a new website (you're looking at it now).
 
 ## Reading
-* Trying to work through my backlog of [Donald Duck](https://en.wikipedia.org/wiki/Donald_Duck_(Dutch_comic_book)) comics (a quick count showed 93 to go, at 25 minutes a piece that's roughly 40h of reading),
+* Trying to work through my backlog of [Donald Duck](https://en.wikipedia.org/wiki/Donald_Duck_(Dutch_comic_book) comics (a quick count showed 93 to go, at 25 minutes a piece that's roughly 40h of reading),
 * [Makers](http://craphound.com/makers/download/) by Cory Doctorow and
 * [Modernist Cuisine at Home](http://modernistcuisine.com/books/modernist-cuisine-at-home/) by [Nathan Myhrvold](http://www.nathanmyhrvold.com) and his team.
 
