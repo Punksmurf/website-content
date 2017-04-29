@@ -54,6 +54,8 @@ nav#header {
 article.main {
   position: relative;
   margin: 25px 25px 25px 150px;
+  max-width: 850px;
+  
 
   &:after { // clearfix
     content: "";
@@ -62,8 +64,15 @@ article.main {
     clear: both;
   }
 
-  h1, h2 {
-    margin-top: 15px;
+  h1 {
+    margin: 15px 0 15px 0;
+    font-size: 50px;
+  }
+
+  h2 {
+    border-top: 1px solid #ddd;
+    padding-top:7px;
+    margin-top:30px;
   }
 
   h3, h4 {
@@ -74,13 +83,8 @@ article.main {
     margin-top: 4px;
   }
 
-  h1 {
-    margin: 15px 0 15px 0;
-    font-size: 50px;
-  }
 
   section, p, ul {
-    max-width: 850px;
     margin-top: 25px;
   }
 
@@ -90,7 +94,7 @@ article.main {
   }
 
   .images {
-    
+
     &::after { //clearfix
        content: " ";
        display: block;
@@ -103,27 +107,27 @@ article.main {
       float: left;
     }
 
-    /* 1 image */
+    /* 1 image 50% width */
     img:first-child:nth-last-child(1) {
-        width: 100%;
+        width: 50%;
     }
 
-    /* 2 images */
+    /* 2 images 2x1 */
     img:first-child:nth-last-child(2),
     img:first-child:nth-last-child(2) ~ img {
         width: 50%;
     }
 
-    /* 3 images */
+    /* 3 images 3x1 */
     img:first-child:nth-last-child(3),
     img:first-child:nth-last-child(3) ~ img {
         width: 33.3333%;
     }
 
-    /* 4 images */
+    /* 4 images 2x2 */
     img:first-child:nth-last-child(4),
     img:first-child:nth-last-child(4) ~ img {
-        width: 25%;
+        width: 50%;
     }
   }
 }
