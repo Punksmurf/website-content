@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12pt;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: #888;
+  }
+}
+
+nav#header {
+  height: 150px;
+  border-bottom: 1px solid #aaa;
+
+  a {
+    display: inline-block;
+    color: black;
+    line-height: 150px;
+    vertical-align: top;
+    margin-right: 25px;
+    font-size: 50px;
+    font-weight: normal;
+  }
+
+  #logo {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+  }
+}
+
+article.main {
+  position: relative;
+  margin: 25px 25px 25px 150px;
+
+  &:after { // clearfix
+    content: "";
+    display: block;
+    height: 50px; // footer height
+    clear: both;
+  }
+
+  h1, h2 {
+    margin-top: 15px;
+  }
+
+  h3, h4 {
+    margin-top: 7px;
+  }
+
+  h5, h6 {
+    margin-top: 4px;
+  }
+
+  h1 {
+    margin: 15px 0 15px 0;
+    font-size: 50px;
+  }
+
+  section, p, ul {
+    max-width: 850px;
+    margin-top: 25px;
+  }
+
+  ul li {
+    margin-top: 7px;
+    margin-left: 25px;
+  }
+
+  .images {
+    
+    &::after { //clearfix
+       content: " ";
+       display: block;
+       height: 0;
+       clear: both;
+    }
+
+    img {
+      display: block;
+      float: left;
+    }
+
+    /* 1 image */
+    img:first-child:nth-last-child(1) {
+        width: 100%;
+    }
+
+    /* 2 images */
+    img:first-child:nth-last-child(2),
+    img:first-child:nth-last-child(2) ~ img {
+        width: 50%;
+    }
+
+    /* 3 images */
+    img:first-child:nth-last-child(3),
+    img:first-child:nth-last-child(3) ~ img {
+        width: 33.3333%;
+    }
+
+    /* 4 images */
+    img:first-child:nth-last-child(4),
+    img:first-child:nth-last-child(4) ~ img {
+        width: 25%;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  border-top: 1px solid #aaa;
+  padding-left: 150px;
+
+  a {
+    margin-left: 7px;
+
+    color: black;
+    &:hover, &:active, &:visited {
+      color: black;
+    }
+
+    img {
+      vertical-align: middle;
+      margin-right: 4px;
+      margin-bottom: 6px;
+    }
+  }
+
+}
