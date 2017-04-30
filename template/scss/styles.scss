@@ -55,7 +55,15 @@ article.main {
   position: relative;
   margin: 25px 25px 25px 150px;
   max-width: 850px;
-  
+
+
+  &.paper, &.long-form {
+    p {
+      font-family: "bookman old style", "serif";
+      color: #333;
+    }
+  }
+
 
   &:after { // clearfix
     content: "";
@@ -63,6 +71,11 @@ article.main {
     height: 50px; // footer height
     clear: both;
   }
+
+  * {
+    margin-top: 15px;
+  }
+
 
   h1 {
     margin: 15px 0 15px 0;
@@ -76,21 +89,42 @@ article.main {
   }
 
   h3, h4 {
-    margin-top: 7px;
+    padding-top: 7px;
   }
 
   h5, h6 {
-    margin-top: 4px;
+    padding-top: 4px;
   }
 
-
-  section, p, ul {
-    margin-top: 25px;
-  }
 
   ul li {
     margin-top: 7px;
     margin-left: 25px;
+  }
+
+  a {
+    /* Order matters! */
+    &[name^="footnote-"] {
+    }
+    &[name^="footnote-referer-"] {
+      margin-left: 2px;
+    }
+  }
+
+  code {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px;
+  }
+  pre {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 7px;
+    code { /* code tag within <pre> */
+      border: none;
+    }
   }
 
   .images {
@@ -107,9 +141,9 @@ article.main {
       float: left;
     }
 
-    /* 1 image 50% width */
+    /* 1 image full width */
     img:first-child:nth-last-child(1) {
-        width: 50%;
+        width: 100%;
     }
 
     /* 2 images 2x1 */
