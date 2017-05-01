@@ -72,9 +72,10 @@ local flags = event:getRawEventData().CGEventData.flags
 local cmd = flags & 0x100000 > 0
 local cmdLeft = cmd and flags & 0x8 > 0
 local cmdRight = cmd and flags & 0x10 > 0
-view rawhammerspoon3 hosted with ❤ by GitHub
+```
 Daarna moeten we checken of we een remap willen doen:
 
+```lua
 local keyCode = event:getKeyCode()
 
 -- if right command && (e, s, d or f)
