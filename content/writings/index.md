@@ -10,3 +10,8 @@ My master's thesis was rather easily found and I therefore offer it here for you
 [Download](./files/Thesis_Niels_Keetlaer.pdf)
 
 There is mention of a cd (or dvd) with additional content but unfortunately that is still buried in about 10 years of ad-hoc backups.
+
+## Other posts
+
+* [MacOS keyboard remap using Hammerspoon](./macos-keyboard-remap-using-hammerspoon)  
+* [Archillect picture frame](../projects/archillect-picture-frame)  
