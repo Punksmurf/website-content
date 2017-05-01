@@ -2,7 +2,7 @@
 title: Archillect picture frame
 ---
 July, 2016  
-Originally published on [infi.nl](https://infi.nl/nieuws/macos-keyboard-remappen-met-hammerspoon/) (Dutch)
+Originally published on [infi.nl](https://infi.nl/nieuws/hobbyproject-archillect-fotolijstje/) (Dutch)
 
 ---
 Digitale fotolijstjes, je kent ze wel. Je zet er een keer foto’s op en je hebt in een leuke hoek van je huiskamer elke keer een andere foto. Totdat je ze zat bent.
