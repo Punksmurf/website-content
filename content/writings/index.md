@@ -15,3 +15,4 @@ There is mention of a cd (or dvd) with additional content but unfortunately that
 
 * [MacOS keyboard remap using Hammerspoon](./macos-keyboard-remap-using-hammerspoon)  
 * [Archillect picture frame](../projects/archillect-picture-frame)  
+* [Building a palmtop](../projects/punktop)
