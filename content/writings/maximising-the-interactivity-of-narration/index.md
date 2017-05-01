@@ -190,6 +190,6 @@ Smith, Johan H.: *The empowered Reader*, www.johansmith.dk, 2000
 Szulborski, Dave: *This is not a game*, eXe Active Media Group, 2005  
 
 ### Games
-Cyan Inc.: *Myst*, Brøderbund, 1993
-Infocom: *Zork*, Infocom, 1980
-Alexey Pajitnov: *Tetris*, Spectrum HoloByte, 1986
+Cyan Inc.: *Myst*, Brøderbund, 1993  
+Infocom: *Zork*, Infocom, 1980  
+Alexey Pajitnov: *Tetris*, Spectrum HoloByte, 1986  
