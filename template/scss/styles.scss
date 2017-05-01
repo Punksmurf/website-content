@@ -122,6 +122,7 @@ article.main {
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 7px;
+    overflow-x: scroll;
     code { /* code tag within <pre> */
       border: none;
     }
