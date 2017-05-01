@@ -11,8 +11,9 @@ My master's thesis was rather easily found and I therefore offer it here for you
 
 There is mention of a cd (or dvd) with additional content but unfortunately that is still buried in about 10 years of ad-hoc backups.
 
-## Other posts
+## Other writings
 
 * [MacOS keyboard remap using Hammerspoon](./macos-keyboard-remap-using-hammerspoon)  
 * [Archillect picture frame](../projects/archillect-picture-frame)  
 * [Building a palmtop](../projects/punktop)
+* [Maximising the interactivity of narration](./maximising-the-interactivity-of-narration)
