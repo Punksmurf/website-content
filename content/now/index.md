@@ -22,7 +22,7 @@ This is what I am supposedly working on now. Last updated in June, 2017.
 * [Cryptonomicon](http://www.nealstephenson.com/cryptonomicon.html) by Neal Stephenson (read by [William Dufris](http://www.mindseyeproductions.com)).
 
 ## Playing
-Nothing really. Any free time I'm spending on my computer is scouring [Funda](http://www.funda.nl) for a new home.
+Nothing really. Any free time I'm spending on my computer is spent scouring [Funda](http://www.funda.nl) for a new home.
 
 ## Watching
 * [Real Humans](http://www.imdb.com/title/tt2180271/).
